@@ -27,7 +27,7 @@
             li.addTapEvent(function() {
                 var x = i;
                 return function() {
-                    console.log(x);
+                    alert(x);
                 }
             }())
             ul.appendChild(li);
@@ -38,7 +38,7 @@
             li.onclick = function() {
                 var x = j;
                 return function() {
-                    console.log(x);
+                    alert(x);
                 }
             }()
             ul.appendChild(li);
